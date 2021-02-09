@@ -24,7 +24,7 @@
 //}
 
 html {
-  font-size: 11px;
+  font-size: 14px;
 }
 
 body {
@@ -45,7 +45,19 @@ body {
   width: calc(100% - 32px);
 }
 
+.entry {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
 
+.post {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family:$verdana_ss;
@@ -81,7 +93,7 @@ h4 {
 
 p {
   margin: 15px 0;
-  font-size:11px;
+  font-size:14px;
 }
 
 a {
@@ -234,7 +246,7 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; 
+  margin-top: 23px;
   font-family: $helveticaNeue;
   font-size: 18px;
 
@@ -246,7 +258,6 @@ nav {
   }
 
   a {
-    color: $darkGray;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -267,7 +278,7 @@ nav {
 .flnav {
   display:none;
   @include mobile{
-    margin: 0 auto; 
+    margin: 0 auto;
     position: fixed;
     left:  0;
     right: 0;
@@ -340,7 +351,8 @@ nav {
   height: 300px;
   float:left;
   margin: 0 15px 15px 0;
-  
+  z-index:0;
+
   @include mobile{
     float:none;
     margin: 0 0 0 0;
@@ -351,6 +363,7 @@ nav {
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $darkGray;
+  overflow: hidden;
 }
 
 .posts > .post:last-child {

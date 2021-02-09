@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Recept
+title: Recept voor soep van Pastinaak
 category: posts
+image: pastinaak.jpg
 ---
 
 Vandaag een recept voor soep van pastinaak, een heerlijk licht zoeten en anijsachtige
@@ -35,3 +36,5 @@ brengen met groentebouillon, scheutje wijn en peper. Room door soep roeren.
 Lekker om de soep te serveren met eenstukje geroosterd brood of soepstengel.
 
 Ook lekker: druppel voor het serveren wat hazelnoot-olie over de soep.
+
+{% include img.html src="pastinaak.jpg" alt="Pastinaak" %}

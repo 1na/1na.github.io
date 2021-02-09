@@ -1,0 +1,10 @@
+{"opening":{
+  "day":[
+{"maandag":{"open":"17:30", "close":"19:00", "remark":"alleen voor 3-gangen diner"}},
+{"dinsdag":{"open":"17:30", "close": "19:00", "remark":"alleen voor 3-gangen diner"}},
+{"woensdag":{"open":"17:30", "close": "19:00", "remark":"alleen voor 3-gangen diner"}},
+{"donderdag":[{"open":"11:00", "close":"17:00"}, {"open":"17:30", "close":"19:00", "remark":"alleen voor 3-gangen diner"}]},
+{"vrijdag":[{"open":"11:00", "close":"17:00"},{"open":"17:30", "close":"19:00", "remark":"alleen voor 3-gangen diner"}]},
+{"zaterdag":{"open":"11:00", "close":"17:00"}},
+{"zondag":{"open":"11:00", "close":"17:00"}}]
+}}

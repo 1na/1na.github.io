@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <link rel="icon" type="image/png" href={{site.url}}{{site.imgurl}}logo.svg/>
     {% include meta.html %}
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
     <style>
         {% include _critical.html %}
     </style>
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
     <!--next script needed for navbar scroll-->
     <script>
         var cb = function() {
@@ -36,7 +38,6 @@
         if (raf2) raf2(cb2);
         else window.addEventListener('load', cb2);
     </script>
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
     </head>
     <body >
         <div class="wrapper-masthead">
@@ -58,7 +59,7 @@
                     <a href="{{ site.baseurl }}/">Home</a>
                     <a href="{{ site.baseurl }}/blog">Blog</a>
                     <button class="w3-mystyle" >
-                    <a href="tel:{{ site:phone }}">
+                    <a href="tel:{{ site.phone }}">
                     <i class="material-icons">phone
                     </i>
                     </a>
@@ -75,7 +76,7 @@
                       <a href="{{ site.baseurl }}/">Home</a>
                       <a href="{{ site.baseurl }}/blog">Blog</a>
                       <button class="w3-mystyle">
-                      <a href="tel:{{ site:phone }}">
+                      <a href="tel:{{ site.phone }}">
                       <i class="material-icons">phone
                       </i>
                       </a>
@@ -112,7 +113,7 @@
                 var newWidth = getWidth("innernav") + 15;
                 // newWidth = "270px";
                 var myNav = document.getElementById("flnav");
-                myNav.style.width = newWidth + "px"; 
+                myNav.style.width = newWidth + "px";
                 function getWidth(eleID){
                   element = document.getElementById(eleID);
                   return ( $(element).width() );
@@ -125,7 +126,7 @@
       });
     </script>
     <script>
-      // script to load the buttons 
+      // script to load the buttons
       var cb = function() {
           var l = document.createElement('link');
           l.rel = 'stylesheet';
@@ -135,9 +136,9 @@
           };
       var raf = requestAnimationFrame || mozRequestAnimationFrame ||
           webkitRequestAnimationFrame || msRequestAnimationFrame;
-      if (raf) raf(cb); 
-      else window.addEventListener('load', cb); 
+      if (raf) raf(cb);
+      else window.addEventListener('load', cb);
     </script>
-    
+
   </body>
 </html>

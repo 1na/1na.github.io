@@ -1,7 +1,7 @@
 ---
 layout: page
 titel: Leerlingen
-category: pages
+category: none
 ---
 
 ### Leerlingen

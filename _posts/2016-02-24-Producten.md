@@ -4,9 +4,6 @@ title: Producten
 category: pages
 ---
 
-### Producten
+We gebruiken zoveel mogelijk dagverse lokale produkten die bij voorkeur seizoensgebonden zijn, liefst van verantwoorde herkomst. Huisgemaakt is hier een vanzelfsprekendheid: van chutneys tot desserts en gebak tot crackers.
 
-We gebruiken zo veel mogelijk lokale produkten liefst van verantwoorde herkomst.
-
-{% include wide_img.html src="pastinaak.jpg" alt="Image of pastinaak" %}
-
+{% include img.html src="IMG_20160324_111418434.jpg" alt="Afbeelding van producten" %}

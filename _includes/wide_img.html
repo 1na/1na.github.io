@@ -8,5 +8,5 @@
         src="{{ site.imgurl }}{{ include.src | replace: '.jpg', '-800.jpg' | replace: '.png', '-800.png' }}"
         sizes="(max-width: 2000px) 100vw, 4000px"
         alt="{{ include.alt }}"
-        style="max-width:100vw; left:calc((-100vw + 100% - 20px)/2); position:relative;display:block; z-index:-1;"
+        style="max-width:100vw; min-width: 100vw; left:calc((-100vw + 100% - 20px)/2); position:relative;display:block; z-index:-1;"
 />

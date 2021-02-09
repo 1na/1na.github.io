@@ -1,0 +1,12 @@
+<!-- This is a template for responive images at full wide-->
+<img
+        srcset="
+        {{ site.imgurl }}{{ include.src | replace: '.jpg', '-375.jpg' | replace: '.png', '-375.png' }} 375w,
+        {{ site.imgurl }}{{ include.src | replace: '.jpg', '-800.jpg' | replace: '.png', '-800.png' }} 800w,
+        {{ site.imgurl }}{{ include.src | replace: '.jpg', '-2000.jpg' | replace: '.png', '-2000.png' }} 2000w,
+        {{ site.imgurl }}{{ include.src | replace: '.jpg', '-4000.jpg' | replace: '.png', '-4000.png' }} 4000w"
+        src="{{ site.imgurl }}{{ include.src | replace: '.jpg', '-800.jpg' | replace: '.png', '-800.png' }}"
+        sizes="(max-width: 2000px) 100vw, 4000px"
+        alt="{{ include.alt }}"
+        style="max-width:100%; min-width: 100%; position:relative;display:block; z-index:-1;"
+/>

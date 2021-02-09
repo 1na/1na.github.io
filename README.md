@@ -1,10 +1,13 @@
+# Decomissioned
+The website that this was written for has been decomissioned.
+
 # Fork of Jekyll now
 
 **Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
 
 **Jekyll Now** makes it easier to create your Jekyll blog, by eliminating a lot of the up front setup.
 
-This fork is for a website in development. 
+This fork is for a website in production. 
 
 ## Quick Start
 
@@ -19,12 +22,6 @@ Making a change to _config.yml (or any file in your repository) will force GitHu
 > 3. Clone down your repository and make updates locally, then push them to your GitHub repository.
 
 ![_config.yml](/images/config.png "_config.yml")
-
-### Step 3) Publish your first blog post
-
-Edit `/pages/_posts/2016-3-1-Sixes.md` to publish your first blog post. This [Markdown Cheatsheet](http://www.jekyllnow.com/Markdown-Style-Guide/) might come in handy.
-
-> You can add additional posts in the browser on GitHub.com too! Just hit the + icon in `/pages/_posts/` or in `/posts/_posts/` (for you blog) to create new content. Just make sure to include the [front-matter](http://jekyllrb.com/docs/frontmatter/) block at the top of each new blog post and make sure the post's filename is in this format: year-month-day-title.md
 
 
 ## Jekyll Now Features
@@ -46,36 +43,37 @@ Edit `/pages/_posts/2016-3-1-Sixes.md` to publish your first blog post. This [Ma
 ✘ No need to spend time on theming  
 ✘ More time to code other things ... wait ✓!  
 
-## Other forkable themes
-
-You can use the [Quick Start](https://github.com/barryclark/jekyll-now#quick-start) workflow with other themes that are set up to be forked too! Here are some of my favorites:
-
-- [Hyde](https://github.com/poole/hyde) by MDO
-- [Lanyon](https://github.com/poole/lanyon) by MDO
-- [mojombo.github.io](https://github.com/mojombo/mojombo.github.io) by Tom Preston-Werner
-- [Left](https://github.com/holman/left) by Zach Holman
-- [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) by Michael Rose
-- [Skinny Bones](https://github.com/mmistakes/skinny-bones-jekyll) by Michael Rose
 
 ## Credits
 
 - [Jekyll](https://github.com/jekyll/jekyll) - Thanks to its creators, contributors and maintainers.
 - [SVG icons](https://github.com/neilorangepeel/Free-Social-Icons) - Thanks, Neil Orange Peel. They're beautiful.
-- [Solarized Light Pygments](https://gist.github.com/edwardhotchkiss/2005058) - Thanks, Edward.
-- [Joel Glovier](http://joelglovier.com/writing/) - Great Jekyll articles. I used Joel's feed.xml in this repository.
-- [David Furnes](https://github.com/dfurnes), [Jon Uy](https://github.com/jonuy), [Luke Patton](https://github.com/lkpttn) - Thanks for the design/code reviews.
-- [Bart Kiers](https://github.com/bkiers), [Florian Simon](https://github.com/vermluh), [Henry Stanley](https://github.com/henryaj), [Hun Jae Lee](https://github.com/hunjaelee), [Javier Cejudo](https://github.com/javiercejudo), [Peter Etelej](https://github.com/etelej), [Ben Abbott](https://github.com/jaminscript), [Ray Nicholus](https://github.com/rnicholus), [Erin Grand](https://github.com/eringrand), [Léo Colombaro](https://github.com/LeoColomb), [Dean Attali](https://github.com/daattali), [Clayton Errington](https://github.com/cjerrington), [Colton Fitzgerald](https://github.com/coltonfitzgerald), [Trace Mayer](https://github.com/sunnankar) - Thanks for your [fantastic contributions](https://github.com/barryclark/jekyll-now/commits/master) to the project!
+
+# Build and test locally
+
+## install node, node package manager and grunt
+
+Install nvm (node version mananger)
+
+install node.js
+
+install npm (package manager)
+
+install grunt with
+
+'npm install -g grunt-cli'
+
+Use this guide for an existing project:
+[Existing Grunt project](https://gruntjs.com/getting-started#working-with-an-existing-grunt-project)
+
+Ruby
+
+Downgraded to ruby 2.7.2 because of persistent errors with 3.0.
 
 ## To Do
 
-As of March 3, 2016
-- Update content
-- Update styles (input Gea)
-- Set up Google analytics
-- Change mail address
-- Extend navigation
-- Change header to remain visible on scroll down (just the navigation)
-- Link or insert reservation site, watch out their applet is huge
-- Set up direct phone call for mobile browsers
+As of October 20, 2016
 - check twitter feed and rss feed
-- restrict google api key to doomain
+- move fb og into production, change app_id in Yaml
+- fixed fb scrape, now need to improve og tags
+- supply a favicon.ico or favicon in a rel link
