@@ -9,7 +9,7 @@ Vandaag een recept voor soep van pastinaak, een heerlijk licht zoeten en anijsac
 groente.
 
 {{ site.name }}-koks Rita en Bianca vinden het leuk om af en toe een recept te delen dat
-regelmatig op de (lunch) kaart van Zenzez Dining te vinden is.
+regelmatig op de (lunch) kaart van ons te vinden is.
 
 Vandaag onze PASTINAAKSOEP om thuis te maken:
 

@@ -5,7 +5,7 @@ category: posts
 image: ZENZEZ_HIGH_TEA.jpg
 ---
 
-Op aanvraag kunt u bij Zenzez Dining ook van een glutenvrije high tea genieten.
+Op aanvraag kunt u bij ons ook van een glutenvrije high tea genieten.
 Met passie maken wij alle gebak zelf, of u een dieet of allergie heeft of niet.
 U kunt alles met ons overleggen. De high tea serveren wij altijd in drie gangen.
 U kunt ook kiezen voor onze high tea royale, die start met een glas Prosecco en is

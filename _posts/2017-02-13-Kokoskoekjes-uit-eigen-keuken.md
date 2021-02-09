@@ -5,7 +5,7 @@ category: posts
 image: Kokoskoekjes.jpg
 ---
 
-Bij Zenzez Dining krijgt u altijd een zelfgebakken koekje bij de koffie of thee. Wij willen hiermee laten zien dat het puur genieten van eten in de kleine details zit. Want wat is er nu lekkerder dan een vers koekje bij de koffie? U kunt altijd bij ons binnenlopen voor een vers kopje koffie of thee van zeer goede kwaliteit. Onze leverancier van koffie en thee is Simon Lévelt. Heel lekker zijn onze kokoskoekjes. We geven u hier het recept, dan kunt u ze zelf thuis uitproberen. Ze zijn glutenvrij.
+Bij ons krijgt u altijd een zelfgebakken koekje bij de koffie of thee. Wij willen hiermee laten zien dat het puur genieten van eten in de kleine details zit. Want wat is er nu lekkerder dan een vers koekje bij de koffie? U kunt altijd bij ons binnenlopen voor een vers kopje koffie of thee van zeer goede kwaliteit. Onze leverancier van koffie en thee is Simon Lévelt. Heel lekker zijn onze kokoskoekjes. We geven u hier het recept, dan kunt u ze zelf thuis uitproberen. Ze zijn glutenvrij.
 
 U heeft nodig voor ongeveer 15 koekjes:
 2 eiwitten,
