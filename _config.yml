@@ -3,14 +3,14 @@
 #
 
 # Name of your site (displayed in the header)
-name: Doughattack.nl
-title: Doughattack.nl
+name: rakesmaken.nl
+title: rakesmaken.nl
 
 # Short bio or description (displayed in the header)
 description: Alles over deeg.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: /build/img/logo.svg
+avatar: /build/img/newlogo.png
 
 # Default image to use in open graph when no image is on the page
 image: ZENZEZ_SEMIFREDDO_EN_DESSERTWIJN.jpg
@@ -41,13 +41,13 @@ footer-links:
 disqus:
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-83530861-1
-fb_app_id: 1176671095745756
-google_search: wv9VnMsRMfLyisq7VrqSGLRycRJbUHGDFVBgyEygY4Y
+# google_analytics: UA-83530861-1
+# fb_app_id: 1176671095745756
+# google_search: wv9VnMsRMfLyisq7VrqSGLRycRJbUHGDFVBgyEygY4Y
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: http://www.doughattack.nl
+url: http://www.rakesmaken.nl
 
 imgurl: /build/img/
 asseturl: /build/asset/
@@ -89,4 +89,4 @@ exclude:
     - README.md
     - CNAME
     - Gruntfile.js
-    - renbserve.sh
+    - renb.sh
