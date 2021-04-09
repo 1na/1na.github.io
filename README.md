@@ -1,4 +1,4 @@
-# Quick Start
+n# Quick Start
 
 Enter your site name, description, avatar and many other options by editing the _config.yml file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here too.
 
