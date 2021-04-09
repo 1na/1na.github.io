@@ -44,13 +44,13 @@ Making a change to _config.yml (or any file in your repository) will force GitHu
 
 Install nvm (node version mananger)
 
-install node.js
+install node.js with "nvm install node"
 
-install npm (package manager)
+install npm (package manager), is installed with node.
 
 install grunt with
 
-'npm install -g grunt-cli'
+'npm install grunt-cli' in the directory of the project
 
 Use this guide for an existing project:
 [Existing Grunt project](https://gruntjs.com/getting-started#working-with-an-existing-grunt-project)
