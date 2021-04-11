@@ -17,7 +17,7 @@ permalink: manifest.json
   ],
   "theme_color": "{{ site.goldcolor }}",
   "background_color": "{{ site.greencolor }}",
-  "start_url": "{{ site.baseurl }}",
+  "start_url": "{{ site.url }}",
   "display": "standalone",
   "orientation": "natural"
 }

@@ -56,7 +56,7 @@ google_search: 161ecebd41f1d4b457ac73c0eb3beabf81eab734
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: http://www.rakesmaken.nl
+url: https://www.rakesmaken.nl
 
 imgurl: /build/img/
 asseturl: /build/asset/
