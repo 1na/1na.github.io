@@ -53,15 +53,29 @@ install grunt with
 'npm install grunt-cli' in the directory of the project
 
 Use this guide for an existing project:
+
 [Existing Grunt project](https://gruntjs.com/getting-started#working-with-an-existing-grunt-project)
+
+
+'sudo apt install ruby-dev'
 
 Ruby
 
 Downgraded to ruby 2.7.2 because of persistent errors with 3.0.
 
+Install the gems
+
+'sudo gem install bundle jekyll'
+
+Run Jekyll locally with 
+'bundle exec jekyll serve'
+
 ## To Do
 
 As of October 20, 2016
+- Get a good pwa -icon sized 192x192
+- Get a nice logo
+
 - check twitter feed and rss feed
 - move fb og into production, change app_id in Yaml
 - fixed fb scrape, now need to improve og tags

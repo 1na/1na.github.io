@@ -1,0 +1,9 @@
+I"j<p>#404 - Page not found</p>
+
+<p>Sorry, we kunnen die pagina niet vinden. Je kunt het opnieuw proberen <a href="/">terug naar de home pagina</a>.</p>
+
+<!-- [<img src="/images/404.jpg" alt="404 error"/>](/) -->
+<!-- This is a template for responive images at full wide-->
+<p><img srcset="         /build/img/404-375.jpg 375w,         /build/img/404-800.jpg 800w,         /build/img/404-2000.jpg 2000w,         /build/img/404-4000.jpg 4000w" src="/build/img/404-800.jpg" sizes="(max-width: 2000px) 100vw, 4000px" alt="Rhatsh" style="max-width:100%; min-width: 100%; position:relative;display:block; z-index:-1;" /></p>
+
+:ET

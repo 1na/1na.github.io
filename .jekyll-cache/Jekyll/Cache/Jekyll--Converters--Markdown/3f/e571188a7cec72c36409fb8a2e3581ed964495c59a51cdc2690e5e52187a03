@@ -1,0 +1,6 @@
+I"ð<p>We gebruiken zoveel mogelijk dagverse lokale produkten die bij voorkeur seizoensgebonden zijn, liefst van verantwoorde herkomst. Huisgemaakt is hier een vanzelfsprekendheid: van chutneys tot desserts en gebak tot crackers.</p>
+
+<!-- This is a template for responive images at full wide-->
+<p><img srcset="         /build/img/IMG_20160324_111418434-375.jpg 375w,         /build/img/IMG_20160324_111418434-800.jpg 800w,         /build/img/IMG_20160324_111418434-2000.jpg 2000w,         /build/img/IMG_20160324_111418434-4000.jpg 4000w" src="/build/img/IMG_20160324_111418434-800.jpg" sizes="(max-width: 2000px) 100vw, 4000px" alt="Afbeelding van producten" style="max-width:100%; min-width: 100%; position:relative;display:block; z-index:-1;" /></p>
+
+:ET

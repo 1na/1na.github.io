@@ -6,11 +6,45 @@
 //
 
 //@import "reset";
-@import "variables";
+// @import "variables";
 // @import "w3";
 // Syntax highlighting @import is at the bottom of this file
 
 
+//
+// VARIABLES
+//
+
+// Colors
+$zz_gold: {{ site.goldcolor }}; // #CC9900; 
+$zz_green:{{ site.greencolor }}; // #008751; 
+$zz_white: #FFFFFF;
+$zz_magenta:#FF00FF;
+$zz_lmagenta:#FFCCFF;
+
+// Grays
+$black: #000;
+$darkerGray: #222;
+$darkGray: #333;
+$gray: #666;
+$lightGray: #eee;
+$white: #fff;
+
+// Font stacks
+$helvetica: Helvetica, Arial, sans-serif;
+$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$georgia: Georgia, serif;
+$verdana: Verdana;
+$verdana_ss: Verdana, Geneva, sans-serif;
+$roboto:'Roboto',sans-serif;
+$lato: 'Lato', sans-serif;
+
+// Mobile breakpoints
+@mixin mobile {
+  @media screen and (max-width: 640px) {
+    @content;
+  }
+}
 
 /**************/
 /* BASE RULES */

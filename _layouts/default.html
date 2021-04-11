@@ -4,10 +4,12 @@
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
     <link rel="icon" type="image/png" href={{site.url}}{{site.imgurl}}newlogo.png/>
     {% include meta.html %}
+    <meta name="theme-color" content="{{ site.goldcolor }}"/>
     <style>
         {% include _critical.html %}
     </style>
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="manifest" href="manifest.json">
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -38,12 +40,28 @@
         if (raf2) raf2(cb2);
         else window.addEventListener('load', cb2);
     </script>
+    <script>
+      if ("serviceWorker" in navigator) {
+        if (navigator.serviceWorker.controller) {
+          console.log("An active service worker found, no need to register");
+        } else {
+        // Register the service worker
+          navigator.serviceWorker
+            .register("{{ site.baseurl }}/serviceworker.js", {
+              scope: "./"
+            })
+          .then(function (reg) {
+            console.log("Service worker has been registered for scope: " + reg.scope);
+          });
+        }
+      }
+    </script>
     </head>
     <body >
         <div class="wrapper-masthead">
             <div class="container">
                 <header class="masthead clearfix">
-                    <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+                    <a {href}="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
                     <div class="site-info">
                       <!--<h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>  -->

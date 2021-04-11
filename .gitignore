@@ -3,8 +3,6 @@ _site
 .jekyll
 .bundle
 .sass-cache
-Gemfile
-Gemfile.lock
 .zedstate
 renbserve.sh
 node_modules

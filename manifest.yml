@@ -1,0 +1,23 @@
+---
+permalink: manifest.json
+---
+
+{
+  "lang": "{{ site.language }}",
+  "dir": "{{ site.lang_direction }}",
+  "name": {{ site.name | smartify | jsonify }},
+  "description": "{{site.description}}",
+  "short_name": {{ site.short_name | smartify | jsonify }},
+  "icons": [
+    {
+      "src": "{{ site.imgurl }}{{ site.pwa-icon }}",
+      "sizes": "225x225",
+      "type": "{{ site.pwa-icon-type }}"
+    }
+  ],
+  "theme_color": "{{ site.goldcolor }}",
+  "background_color": "{{ site.greencolor }}",
+  "start_url": "{{ site.baseurl }}",
+  "display": "standalone",
+  "orientation": "natural"
+}
