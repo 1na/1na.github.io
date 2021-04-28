@@ -127,6 +127,7 @@ module.exports = function(grunt) {
       },
       my_target: {
         files: {
+          'build/jquery-3.6.0.js': ['_includes/_jquery-3.6.0.js'],
           'build/jquery-1.10.2.js': ['_includes/_jquery-1.10.2.js']
         }
       }

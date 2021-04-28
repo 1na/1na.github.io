@@ -116,7 +116,9 @@
     </div>
 
     {% include analytics.html %}
-    <script src="{{ baseurl }}/build/jquery-1.10.2.js"></script>
+    <!-- <script src="{{ baseurl }}/build/jquery-1.10.2.js"></script> -->
+    <!-- , this is replaced with te below line for security reasons.  -->
+    <script src="{{ baseurl }}/build/jquery-3.6.0.js"></script>
     <script type="text/javascript">
     // script to scroll the navbar
         $(document).scroll(function() {
@@ -128,7 +130,7 @@
                 $( ".flnav" ).slideDown(70);
                 $( ".flnav" ).show();
                 // next lines recenter the navbar, by setting the correct width
-                var newWidth = getWidth("innernav") + 15;
+                var newWidth = getWidthorHeight("innernav") + 15;
                 // newWidth = "270px";
                 var myNav = document.getElementById("flnav");
                 myNav.style.width = newWidth + "px";
